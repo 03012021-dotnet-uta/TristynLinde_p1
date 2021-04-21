@@ -32,24 +32,20 @@ To-do list:
 
 ## Getting Started
    
-Run in CLI: git clone https://github.com/03012021-dotnet-uta/TristynLinde_p1.git
-
-
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+1. $git clone https://github.com/03012021-dotnet-uta/TristynLinde_p1.git
+2. $cd ./LoversBooks
+3. $dotnet watch run
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
-
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
+1. Create a new user with the information of your choice.
+2. Select a store.
+3. Add books to your order.
+4. Click the "Cart" button to view your cart.
+5. Click "Checkout" button.
+6. Enter information
+7. Logout
 
 ## License
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: MIT Licence (https://mit-license.org/).
