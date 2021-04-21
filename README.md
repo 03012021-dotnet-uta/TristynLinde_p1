@@ -32,9 +32,14 @@ To-do list:
 
 ## Getting Started
    
-1. $git clone https://github.com/03012021-dotnet-uta/TristynLinde_p1.git
-2. $cd ./LoversBooks
-3. $dotnet watch run
+1. Ensure you have the .NET SDK installed (https://dotnet.microsoft.com/download).
+2. Ensure you have Microsoft SQL Server Express installed (https://www.microsoft.com/en-us/sql-server/sql-server-downloads) and have selected the Local DB option.
+3. Run in CLI: git clone https://github.com/03012021-dotnet-uta/TristynLinde_p1.git
+4. Run in CLI: ./TristynLinde_p1/Repository
+5. Change the connection string in LoversBooks/Startup.cs and Repository/loversContext.cs to match your server and desired database name.
+6. Run in CLI: dotnet ef update database InitialCreate --startup-project ../LoversBooks/LoversBooks.csproj 
+7. Run in CLI: cd ../LoversBooks
+8. Run in CLI: dotnet watch run
 
 ## Usage
 
