@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Here goes your awesome project description!
+Lovers Books is an online book ordering system. Log in or register in order to choose your store location and books from our list of available titles. Once you are happy with your order, view your cart, which tells you your subtotal, and proceed to checkout. After submitting your order, place another order or log out. All of this functionality is styled in a clean and easy to read way.
 
 ## Technologies Used
 
